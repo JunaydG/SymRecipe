@@ -32,7 +32,7 @@ class AppFixtures extends Fixture
     
             $manager->persist($ingredient);
         }
-     
+        
         $manager->flush();
     }
 }
